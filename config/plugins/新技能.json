@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "priority": 50,
+  "cooldown": 0,
+  "config": {
+    "custom_param": 100
+  }
+}

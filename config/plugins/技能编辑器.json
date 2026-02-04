@@ -1,0 +1,68 @@
+{
+  "enabled": true,
+  "priority": 100,
+  "cooldown": 0,
+  "config": {
+    "skill_types": [
+      "damage",
+      "heal", 
+      "buff",
+      "debuff",
+      "control",
+      "summon",
+      "transform",
+      "custom"
+    ],
+    "damage_types": [
+      "physical",
+      "magical", 
+      "true",
+      "fire",
+      "ice",
+      "lightning",
+      "poison",
+      "holy",
+      "dark"
+    ],
+    "target_types": [
+      "self",
+      "single_enemy",
+      "single_ally",
+      "all_enemies",
+      "all_allies",
+      "random_enemy",
+      "random_ally"
+    ],
+    "buff_types": [
+      "attack",
+      "defense", 
+      "speed",
+      "crit_rate",
+      "crit_damage",
+      "dodge",
+      "accuracy",
+      "max_health",
+      "shield"
+    ],
+    "control_types": [
+      "stun",
+      "freeze",
+      "silence",
+      "paralyze",
+      "confuse",
+      "charm",
+      "fear",
+      "sleep"
+    ],
+    "effect_triggers": [
+      "on_cast",
+      "on_hit",
+      "on_crit",
+      "on_kill",
+      "on_take_damage",
+      "on_low_health",
+      "on_turn_start",
+      "on_turn_end"
+    ]
+  }
+}

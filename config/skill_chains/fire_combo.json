@@ -1,0 +1,11 @@
+{
+  "name": "fire_combo",
+  "chain_type": "combo",
+  "skill_names": ["火球术", "烈焰冲击"],
+  "description": "火焰连招：连续释放火系技能造成额外伤害",
+  "cooldown": 3,
+  "damage_multiplier": 1.5,
+  "requirements": {
+    "role": "DPS"
+  }
+}

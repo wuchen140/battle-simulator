@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "priority": 80,
+  "cooldown": 3,
+  "config": {
+    "damage_multiplier": 1.2,
+    "burn_duration": 2,
+    "burn_damage": 30
+  }
+}

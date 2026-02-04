@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "priority": 70,
+  "cooldown": 3,
+  "config": {
+    "heal_multiplier": 1.5,
+    "cleanse_effects": true,
+    "buff_duration": 2
+  }
+}

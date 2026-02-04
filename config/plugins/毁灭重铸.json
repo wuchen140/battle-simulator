@@ -1,0 +1,16 @@
+{
+  "name": "毁灭重铸",
+  "description": "",
+  "skill_type": "damage",
+  "cooldown": 5,
+  "mana_cost": 0,
+  "target_type": "single_enemy",
+  "level_values": {
+    "1": 0.4,
+    "2": 0.5,
+    "3": 0.6,
+    "4": 0.7,
+    "5": 0.8
+  },
+  "effects": []
+}

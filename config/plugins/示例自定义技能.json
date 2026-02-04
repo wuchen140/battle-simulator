@@ -1,0 +1,35 @@
+{
+  "name": "示例自定义技能",
+  "description": "这是一个演示技能编辑器功能的示例技能",
+  "enabled": true,
+  "priority": 5,
+  "cooldown": 3,
+  "config": {
+    "skill_type": "custom",
+    "target_type": "single_enemy",
+    "damage_type": "magical",
+    "base_damage": 100,
+    "effects": [
+      {
+        "effect_type": "damage",
+        "value": 1.5,
+        "is_percentage": true,
+        "chance": 1.0
+      },
+      {
+        "effect_type": "burn",
+        "value": 30,
+        "duration": 3,
+        "chance": 0.7
+      },
+      {
+        "effect_type": "buff",
+        "buff_type": "attack",
+        "value": 0.2,
+        "duration": 2,
+        "target": "self",
+        "chance": 1.0
+      }
+    ]
+  }
+}

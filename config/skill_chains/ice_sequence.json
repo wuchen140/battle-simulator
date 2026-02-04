@@ -1,0 +1,11 @@
+{
+  "name": "ice_sequence",
+  "chain_type": "sequence",
+  "skill_names": ["寒冰箭", "冰霜新星"],
+  "description": "冰霜序列：按顺序释放冰系技能产生控制效果",
+  "cooldown": 2,
+  "effect_multiplier": 2.0,
+  "requirements": {
+    "health_percent": 0.7
+  }
+}

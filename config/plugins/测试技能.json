@@ -1,0 +1,28 @@
+{
+  "name": "测试火焰弹",
+  "description": "一个简单的火焰伤害技能",
+  "skill_type": "custom",
+  "cooldown": 2,
+  "mana_cost": 0,
+  "target_type": "single_enemy",
+  "level_values": {
+    "1": 0.2,
+    "2": 0.3,
+    "3": 0.4,
+    "4": 0.5,
+    "5": 0.6
+  },
+  "effects": [
+    {
+      "type": "damage",
+      "trigger": "on_cast",
+      "probability": 1.0,
+      "duration": 0,
+      "damage_type": "physical",
+      "base_damage": 0,
+      "damage_multiplier": 1.2,
+      "ignore_defense": false,
+      "can_crit": true
+    }
+  ]
+}
